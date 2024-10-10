@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Tokenomics = () => {
   return (
-    <div className="relative w-[100vw] h-[1000px] left-[-35px] z-40 flex flex-col  rotate-[-3.8deg] overflow-x-clip bg-custom-radial" >
+    <div className="relative w-[100vw] h-[900px] left-[-35px] z-40 flex flex-col  rotate-[-3.8deg] overflow-x-clip bg-custom-radial" >
     {/* Top Content */}
     <div className="absolute flex flex-col z-[50]  items-center rotate-[3.8deg]">
  

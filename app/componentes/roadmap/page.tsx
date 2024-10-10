@@ -5,7 +5,6 @@ const Roadmap = () => {
     <div className="relative w-screen h-[1004.95px] top-[-150px] mb-40 z-40 left-[-80px] flex flex-col bg-white rotate-[8deg]  overflow-x-clip">
             <div className="absolute inset-0 flex z-40 flex-col items-center pt-24  rotate-[-8deg] px-16">
        <div className=" flex flex-row px-8 z-50 min-h-min ">
-      {/* Roadmap Text */}
       <div className="text-center  ">
         <p className="text-lg font-semibold text-gray-700">
           Our journey is just beginning. Explore our roadmap to see the exciting milestones and future plans we have in store.

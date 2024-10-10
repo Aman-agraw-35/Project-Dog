@@ -35,33 +35,32 @@ const Merchendise = () => {
   };
 
   return (
-    <div className="w-full bg-white flex flex-col items-center py-16">
-      <h1 className="text-5xl font-bold text-yellow-500">MERCHANDISE</h1>
+    <div className="relative w-screen h-[254.95px] top-[-150px] mb-40 z-40 left-[-80px] flex flex-col bg-white rotate-[3.8deg]  overflow-x-clip">
+            <div className="absolute inset-0 flex z-40 flex-col items-center pt-24  rotate-[-3.8deg] px-16">
+      <h1 className="text-[5rem] font-black text-yellow-500  ">MERCHANDISE</h1>
 
       <div 
-        className="relative w-full md:w-[800px] h-[400px] rounded-lg mt-8 p-8 flex flex-col items-center justify-center transition-all duration-500 ease-in-out"
+        className="relative w-full md:w-[1000px]  z-[60] rounded-lg mt-8 px-8 flex flex-col items-center justify-center transition-all duration-500 ease-in-out"
         style={{
           backgroundImage: `url(${merchandiseItems[currentIndex].background})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
       >
-        <div className="w-[200px] h-[300px] relative">
+        <div className=" relative">
           <Image
             src={merchandiseItems[currentIndex].image} 
             alt="Alabay Merchandise"
-            width={200}
-            height={300}
-            className="object-contain"
+            width={700}
+            height={1000}
+            className="object-cover"
           />
         </div>
 
-        {/* Text: Coming Soon */}
-        <div className="absolute top-4 right-4 text-gray-700 text-xl font-semibold">
+        <div className="absolute top-16 right-24 text-black text-xl font-extrabold">
           Coming Soon...
         </div>
 
-        {/* Navigation Arrows */}
         <div className="absolute left-4 top-1/2 transform -translate-y-1/2 cursor-pointer">
           <button onClick={scrollLeft} className="p-2 bg-white rounded-full shadow-md">
             &#x25C0; 
@@ -74,15 +73,9 @@ const Merchendise = () => {
           </button>
         </div>
 
-        <div className="text-center mt-4">
-          <p className="text-gray-600">
-            Fresh new <span className="font-bold text-white">Alabay</span> approved merch for you!
-          </p>
-        </div>
 
-        <button className="mt-4 px-6 py-2 bg-black text-white rounded-full font-semibold shadow-lg">
-          Discover
-        </button>
+
+        </div>
       </div>
     </div>
   );

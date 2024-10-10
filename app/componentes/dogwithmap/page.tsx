@@ -1,9 +1,8 @@
 import Image from 'next/image';
 
-const Tokenomics = () => {
+const DogWithMap = () => {
   return (
     <div className="w-full bg-white flex flex-col items-center py-16">
-      {/* Dog with Map Image */}
       <div className="relative w-full flex justify-center">
         <Image
           src="/path-to-your-dog-image.png" // Replace with the actual path to your dog with map image
@@ -84,4 +83,4 @@ const Tokenomics = () => {
   );
 };
 
-export default Tokenomics;
+export default DogWithMap;

@@ -4,6 +4,7 @@ import GroupOfDogs from "./componentes/groupofdogs/page";
 import Mainpage from "./componentes/mainpage/page";
 import Roadmap from "./componentes/roadmap/page";
 import Merchendice from "./componentes/merchendise/page";
+import Games from "./componentes/games/page";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Roadmap/>
       <Tokenomics/>
       <Merchendice/>
+      <Games/>
       </div>
     </div>
   );
