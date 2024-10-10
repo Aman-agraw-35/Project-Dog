@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const MainPage = () => {
   return (
-    <div className="relative w-full h-[824.95px]  rounded-[40px] bg-custom-radial overflow-hidden  ">
+    <div className="relative w-full h-[824.95px]  rounded-t-[40px] bg-custom-radial overflow-hidden  ">
       {/* Inner Content Wrapper */}
       <div className="absolute inset-0 flex items-center justify-between pt-24   ">
         {/* Dog Image */}

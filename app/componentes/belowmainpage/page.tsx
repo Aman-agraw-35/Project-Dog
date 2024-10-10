@@ -61,9 +61,9 @@ const BelowMainPage = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full h-[504.95px] top-[-100px] z-[1] left-[-25px] flex flex-col bg-white rotate-[3.8deg] overflow-hidden overflow-x-clip">
+    <div className="relative w-screen h-[504.95px] top-[-100px] mb-40 z-[1] left-[-50px] flex flex-col bg-white rotate-[8deg] overflow-hidden overflow-x-clip">
       {/* Inner Content Wrapper */}
-      <div className="absolute inset-0 flex flex-col items-center pt-24  rotate-[-3.8deg] px-16">
+      <div className="absolute inset-0 flex flex-col items-center pt-24  rotate-[-8deg] px-16">
         
         {/* Tab Section */}
         <div className="w-full flex justify-center z-[4] overflow-hidden">
@@ -120,9 +120,7 @@ const BelowMainPage = () => {
             </svg>
           </button>
         </div>
-        <div className="text-center  mt-16 items-center justify-center flex  ">
-        <h1 className="text-[80px] text-center font-black  text-yellow-400 ">PROJECT VISION</h1>
-      </div>
+
       </div>
 
       </div>
